@@ -1,19 +1,17 @@
 # Flight calculator
 
-This is a simple micro-service to calculate flights. This service is built with [Encore.dev](https://encore.dev/) 
-- see more about it (generated interactive API docs, how to run it, etc.) in the sections below.
+This is a simple micro-service to calculate flights. This service is built with [Encore.dev](https://encore.dev/) - 
+see more about it (generated interactive API docs, how to run it, etc.) in the sections below.
 
 ## Demo API
 
-Demo API docs are available at [Encore staging environment](https://app.encore.dev/flight-router-c9fi/envs/staging/api/flight) to preview and experiment with.
+Demo API docs and Admin dashboard are available at [Encore staging environment](https://app.encore.dev/flight-router-c9fi/envs/staging/api/flight) (requires Admin access) to preview and experiment with.
 
-For example, try:
+Try publicly available endpoint:
 
 ```bash
 curl 'https://staging-flight-router-c9fi.encr.app/calculate' -d '{"flights":[["IND","EWR"],["SFO","ATL"],["GSO","IND"],["ATL","GSO"]]}'
 ```
-
-Admin dashboard for Demo environment is at [app.encore.dev](https://app.encore.dev/flight-router-c9fi/deploys).
 
 ## Running locally
 
