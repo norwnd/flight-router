@@ -1,4 +1,4 @@
-// Package flight takes a bunch of flights (including intermediate ones) and calculates resulting flight.
+// Service flight takes a bunch of flights (including intermediate ones) and calculates resulting flight.
 package flight
 
 import (
